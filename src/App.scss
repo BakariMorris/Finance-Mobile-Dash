@@ -1,0 +1,77 @@
+$font-family: "Inter", sans-serif;
+$bg-color: #252954;
+$body-color: #9b9ca7;
+$main-bg: #0e0e23;
+:root {
+ --delay: 0s;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:regular,bold,italic&subset=latin,latin-ext');
+
+* {
+  outline: none;
+  box-sizing: border-box;
+ }
+ 
+ html {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+ }
+
+ img {
+  max-width: 100%;
+ }
+
+ body {
+  font-family: $font-family;
+  background-color: $bg-color;
+  color: $body-color;
+ }
+
+ .wrapper {
+  max-width: 1600px;
+  background-color: $main-bg;
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0 auto;
+ }
+
+@media screen and (max-width: 930px) {
+  .second-box .cards-wrapper {
+   width: 100%;
+  }
+  .transection {
+   width: 100%;
+   margin-left: 0;
+   height: 100%;
+   margin-top: 20px;
+  }
+  .header-link {
+   display: none;
+  }
+  .user-info .profile {
+   margin-right: 0;
+  }
+ }
+
+ @media screen and (max-width: 850px) {
+  .activity-card,
+  .discount {
+   width: 100%;
+  }
+  .user-box .discount {
+   margin-left: 0;
+   margin-top: 20px;
+  }
+  .left-side {
+   display: none;
+  }
+  .main-container {
+   padding-left: 25px;
+  }
+  .activity-links,
+  .destination {
+   margin-top: 20px;
+  }
+ }

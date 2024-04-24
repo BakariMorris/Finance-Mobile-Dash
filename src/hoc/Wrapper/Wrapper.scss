@@ -1,0 +1,10 @@
+$main-bg: #0e0e23;
+
+.wrapper {
+  max-width: 1600px;
+  background-color: $main-bg;
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0 auto;
+ }

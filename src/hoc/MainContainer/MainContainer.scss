@@ -1,0 +1,14 @@
+.main-container {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  padding: 25px;
+  overflow: auto;
+  padding-left: 0;
+ }
+ 
+ @media screen and (max-width: 850px) {
+  .main-container {
+    padding-left: 25px;
+   }
+ }
