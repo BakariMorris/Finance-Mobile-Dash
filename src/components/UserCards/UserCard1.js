@@ -1,6 +1,6 @@
 import './UserCard.scss';
 
-import { Chart as ChartJS, ChartOptions, ArcElement, Tooltip, Legend } from 'chart.js';
+import { Chart as ChartJS, ArcElement, Tooltip, Legend } from 'chart.js';
 import { Doughnut } from 'react-chartjs-2';
 
 ChartJS.register(ArcElement, Tooltip, Legend);
@@ -33,8 +33,8 @@ const UserCard1 = () => {
 
           <h2 className="balance">$10,375</h2>
           <div className="top">
-            <img src="https://ozcanzaferayan.github.io/financial-crm/img/mastercard.svg" />
-            <img src="https://ozcanzaferayan.github.io/financial-crm/img/apple_pay.svg" className="apple_pay" />
+            <img alt="img" src="https://ozcanzaferayan.github.io/financial-crm/img/mastercard.svg" />
+            <img alt="img" src="https://ozcanzaferayan.github.io/financial-crm/img/apple_pay.svg" className="apple_pay" />
           </div>
           <div className="ccNumber">
             <span>˙˙˙˙ ˙˙˙˙ ˙˙˙˙ 5610</span>
