@@ -20,10 +20,21 @@ $main-bg: #0e0e23;
   }
 }
 
+.navbar-nav .active .icon {
+  background-color: $body-color;
+  width: 2em;
+  height: 2em;
+}
+
+.navbar-nav .icon.home {
+  -webkit-mask: url(https://ozcanzaferayan.github.io/financial-crm/icon/home.svg) no-repeat center;
+  mask: url("https://ozcanzaferayan.github.io/financial-crm/icon/home.svg") no-repeat center;
+}
+
 .logo {
   padding: 20px 50px 20px 0;
   font-size: 16px;
-  color: #e7e8ea;
+  max-width: 160px;
 
   &-det {
     background: #4255d4;
@@ -98,6 +109,7 @@ $main-bg: #0e0e23;
   .profile {
     margin: 0 20px 0 12px;
     width: 18px;
+    margin-right: auto;
   }
 }
 
