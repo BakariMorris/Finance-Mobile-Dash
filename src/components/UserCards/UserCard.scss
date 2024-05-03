@@ -853,10 +853,6 @@ $body-color: #9b9ca7;
     margin-top: 20px;
   }
 
-  .header-link {
-    display: none;
-  }
-
   .user-info .profile {
     margin-right: 0;
   }
@@ -984,6 +980,26 @@ $body-color: #9b9ca7;
   .activity-links,
   .destination {
     margin-top: 20px;
+  }
+
+  .first-box {
+    flex-wrap: wrap;
+
+    .cards-wrapper {
+      width: 100%;
+    }
+
+    .account-wrapper {
+      max-width: none;
+      width: calc(33% - 20px);
+      margin: 20px 0 20px 20px;
+    }
+  }
+
+  .second-box {
+    .cards-wrapper {
+      width: 100%;
+    }
   }
 }
 
