@@ -817,6 +817,10 @@ $body-color: #9b9ca7;
   font-weight: 500;
 }
 
+.transection {
+  margin-left: 20px;
+}
+
 @media screen and (max-width: 420px) {
   .destination-card+.destination-card {
     display: none;
