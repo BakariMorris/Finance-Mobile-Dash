@@ -16,7 +16,7 @@ const UserCard2 = () => {
           <div className="cards-header-date">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="feather feather-chevron-left">
               <path d="M15 18l-6-6 6-6" /></svg>
-            <div className="title">Sat, Nov 25 2020</div>
+            <div className="title">Mon, May 6 2024</div>
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="feather feather-chevron-right">
               <path d="M9 18l6-6-6-6" /></svg>
           </div>
