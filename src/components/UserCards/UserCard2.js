@@ -168,7 +168,7 @@ const UserCard2 = () => {
       <div className="card transection" style={{transitionDelay: '1.2s'}}>
         <div className="transection-header">
           <div className="head">Transactions</div>
-          <div className="head is-wait">View All</div>
+          <div className="head is-wait"><a href="#">View All</a></div>
         </div>
         <div className="credit-wrapper">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 291.764 291.764" className="bg3">
